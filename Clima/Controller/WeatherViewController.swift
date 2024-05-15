@@ -15,7 +15,7 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+   
         //Solicitar a autoricão para localizacao
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
